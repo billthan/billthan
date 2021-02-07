@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bill Than - INF351</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <nav class="Navbar">
+    <div class="l-Wrapper l-Wrapper--reset@sm-down">
+      <ul class="u-pullRight u-hidden@xs-down">
+        <li>
+          <a class="Navbar-btn Navbar-btn--main" href="index.html">
+            About Me
+          </a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Course work</button>
+            <div class="dropdown-content">
+              <a href="inf301.html">INF301</a>
+              <a href="inf302.html">INF302</a>
+              <a href="inf311.html">INF311</a>
+              <a href="inf351.html">INF351</a>
+              <a href="inf352.html">INF352</a>
+            </div>
+        </li>
+        <li>
+          <a class="Navbar-btn Navbar-btn--main"
+            href="https://drive.google.com/file/d/1opfd4mWJnrpJoYgINyaUXHI3IvQbAFA4/view?usp=sharing">
+            CV
+          </a>
+        </li>
+        <li>
+          <a class="Navbar-btn Navbar-btn--main" href="https://github.com/billthan/">
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a class="Navbar-btn Navbar-btn--main" href="https://www.linkedin.com/in/billthan/">
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a class="Projects" href="projects.html">
+            Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+    <section class="top flex-it flex-row flex-justify-between">
+
+      <div class="left flex-it flex-col flex-justify-end">
+        <a href="index.html"><h1>Bill Than</h1></a>
+        <h2>Bachelor of Information Candidate, University of Toronto</h2>
+      </div><!-- /left -->
+
+      <!-- /left -->
+    </section>
+    <!-- /top -->
+    <section class="charlie">
+      <div class="row">
+        <a href="https://ischool.calendar.utoronto.ca/course/inf351h1">
+          <h3>INF351: Information Design Studio I: How to Make a Computer. And Why. </h3>
+          <a>
+
+            <p>
+              By developing a working system using lightweight computing platforms such as <kbd>Arduino</kbd> or
+              <kbd>Raspberry Pi</kbd> and networked services, students will explore the implications of choices in
+              architecture across the range from mainframes and personal computing to mobile devices and sensors,
+              understand the nature of different network and service architectures including cloud computing, explore
+              the relationship of hardware, data, and programs, and appreciate the various sensing mechanisms through
+              which the world becomes data for the computer in operation.
+            </p>
+
+            <a href="https://ischool.calendar.utoronto.ca/course/inf351h1">Source: Faculty of Information</a>
+      </div>
+      <!-- /row -->
+    </section>
+    <!-- /charlie -->
+    </section><!-- /columns -->
+    <br>
+    <section>
+      <div>
+        <div>
+          <h3>
+            PROJECT #3 STORY: Arduino Traffic Light and python interface
+          </h3>
+          <p>For the third design prompt assignment, we were tasked to complete a “social-able” computer. This project
+            required the students to create a computer that would be able to communicate with other computers. I used
+            <kbd>pyserial</kbd> to interface my personal computer with my <kbd>Arduino</kbd> using <kbd>python</kbd>
+            scripts. The main goal of
+            this project to control multiple <kbd>Arduino</kbd> devices at the same time using a central computer.
+            This project was inspired by real-life traffic control systems that keep our roads and streets running
+            smoothly.
+          </p>
+          <br>
+          <h4>Intended Users</h4>
+          <p>The intended users for this project are cities, in particular traffic controllers. Lights are controlled
+            by a central computer with one script. This is much more efficient than individually programmed lights as
+            you do not need to reprogram each light individually. Reprogramming multiple lights is instantaneous.
+            Since all lights are connected to the main computer, we can see which lights may be down or
+            malfunctioning. This saves cities time and money. </p>
+          </p>
+          <br>
+          <h4>Coding the Arduino </h4>
+          <p>This project requires knowledge of <kbd>python</kbd> (preferably the latest version <kbd>3.9</kbd>) and
+            basic scripting. It uses <kbd>pyserial</kbd> package which is installable by <kbd>pip3</kbd>. I programmed
+            the <kbd>Arduino</kbd> to expect output from the serial monitor. This serial monitor output is the output
+            of the <kbd>python</kbd> script thanks to <kbd>pyserial</kbd>.</p>
+          <br>
+          <p>Firstly, I programmed 3 states in the <kbd>Arduino</kbd> , <kbd>RED</kbd> on, <kbd>GREEN</kbd> on, and
+            <kbd>YELLOW</kbd> on. The <kbd>Arduino</kbd> receives conditional codes <kbd>(0, 1, 2)</kbd> to turn on
+            the respective lights. See below for the <kbd>Arduino</kbd> code.
+          </p>
+          <br>
+          <h4>Arduino Code</h4>
+          <!-- HTML generated using hilite.me -->
+          <div
+            style="background: #202020; overflow:auto;width:auto;font-family:  'Courier New', monospace;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+            <pre style="margin: 0; line-height: 125%"><span style="color: #6ab825; font-weight: bold">int</span> <span style="color: #d0d0d0">datafromUser=</span><span style="color: #3677a9">0</span><span style="color: #d0d0d0">;</span>
+<span style="color: #6ab825; font-weight: bold">int</span> <span style="color: #d0d0d0">RED</span> <span style="color: #d0d0d0">=</span> <span style="color: #3677a9">11</span><span style="color: #d0d0d0">;</span>
+<span style="color: #6ab825; font-weight: bold">int</span> <span style="color: #d0d0d0">YELLOW</span> <span style="color: #d0d0d0">=</span> <span style="color: #3677a9">12</span><span style="color: #d0d0d0">;</span>
+<span style="color: #6ab825; font-weight: bold">int</span> <span style="color: #d0d0d0">GREEN</span> <span style="color: #d0d0d0">=</span> <span style="color: #3677a9">13</span><span style="color: #d0d0d0">;</span>
+
+<span style="color: #6ab825; font-weight: bold">void</span> <span style="color: #447fcf">setup</span><span style="color: #d0d0d0">()</span> <span style="color: #d0d0d0">{</span>
+  <span style="color: #d0d0d0">pinMode(RED</span> <span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">OUTPUT</span> <span style="color: #d0d0d0">);</span>
+  <span style="color: #d0d0d0">pinMode(YELLOW</span> <span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">OUTPUT);</span>
+  <span style="color: #d0d0d0">pinMode(GREEN</span> <span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">OUTPUT);</span>
+  <span style="color: #d0d0d0">Serial.begin(</span><span style="color: #3677a9">9600</span><span style="color: #d0d0d0">);</span>
+<span style="color: #d0d0d0">}</span>
+
+<span style="color: #6ab825; font-weight: bold">void</span> <span style="color: #447fcf">loop</span><span style="color: #d0d0d0">()</span> <span style="color: #d0d0d0">{</span>
+  <span style="color: #6ab825; font-weight: bold">if</span><span style="color: #d0d0d0">(Serial.available()</span> <span style="color: #d0d0d0">&gt;</span> <span style="color: #3677a9">0</span><span style="color: #d0d0d0">)</span>
+  <span style="color: #d0d0d0">{</span>
+    <span style="color: #d0d0d0">datafromUser=Serial.read();</span>
+  <span style="color: #d0d0d0">}</span>
+    <span style="color: #6ab825; font-weight: bold">if</span><span style="color: #d0d0d0">(datafromUser</span> <span style="color: #d0d0d0">==</span> <span style="color: #ed9d13">&#39;2&#39;</span><span style="color: #d0d0d0">)</span>
+  <span style="color: #d0d0d0">{</span>
+   <span style="color: #d0d0d0">digitalWrite(RED</span> <span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">LOW</span> <span style="color: #d0d0d0">);</span>
+   <span style="color: #d0d0d0">digitalWrite(YELLOW</span> <span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">LOW);</span>
+   <span style="color: #d0d0d0">digitalWrite(GREEN</span> <span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">HIGH);</span>
+  <span style="color: #d0d0d0">}</span>
+  
+  <span style="color: #6ab825; font-weight: bold">else</span> <span style="color: #6ab825; font-weight: bold">if</span><span style="color: #d0d0d0">(datafromUser</span> <span style="color: #d0d0d0">==</span> <span style="color: #ed9d13">&#39;1&#39;</span><span style="color: #d0d0d0">)</span>
+  <span style="color: #d0d0d0">{</span>
+   <span style="color: #d0d0d0">digitalWrite(RED</span> <span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">LOW</span> <span style="color: #d0d0d0">);</span>
+   <span style="color: #d0d0d0">digitalWrite(YELLOW</span> <span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">HIGH</span> <span style="color: #d0d0d0">);</span>
+   <span style="color: #d0d0d0">digitalWrite(GREEN</span> <span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">LOW</span> <span style="color: #d0d0d0">);</span>
+  <span style="color: #d0d0d0">}</span>
+  <span style="color: #6ab825; font-weight: bold">else</span> <span style="color: #6ab825; font-weight: bold">if</span><span style="color: #d0d0d0">(datafromUser</span> <span style="color: #d0d0d0">==</span> <span style="color: #ed9d13">&#39;0&#39;</span><span style="color: #d0d0d0">)</span>
+  <span style="color: #d0d0d0">{</span>
+   <span style="color: #d0d0d0">digitalWrite(RED</span> <span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">HIGH</span> <span style="color: #d0d0d0">);</span>
+   <span style="color: #d0d0d0">digitalWrite(YELLOW</span> <span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">LOW);</span>
+   <span style="color: #d0d0d0">digitalWrite(GREEN</span> <span style="color: #d0d0d0">,LOW);</span>
+  <span style="color: #d0d0d0">}</span>
+<span style="color: #d0d0d0">}</span>
+</pre>
+          </div>
+          <br>
+          <p>Secondly, I wrote out the <kbd>python</kbd> script. The script will first interface <kbd>pyserial</kbd>
+            and connect to our Arduino on its port. We have 3 integer variables that correspond to the RED, GREEN, and
+            YELLOW on-time values (in seconds). These values can be changed, the default is GREEN 5 seconds, RED 5
+            seconds, and YELLOW 1 second. The <kbd>python</kbd> script has a while condition that runs infinitely
+            (until termination of the script). We first send a conditional to turn on a light. Then we sleep for the
+            amount of time that we set with the respective lights. Then, the next conditional code will be sent, so on
+            and so forth. See below for the <kbd>python</kbd> script.</p>
+          <p></p>
+          <br>
+          <h4>python Code</h4>
+          <!-- HTML generated using hilite.me -->
+          <div
+            style="background: #202020; overflow:auto;width:auto;font-family:  'Courier New', monospace;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+            <pre style="margin: 0; line-height: 125%"><span style="color: #6ab825; font-weight: bold">import</span> <span style="color: #447fcf; text-decoration: underline">serial</span><span style="color: #d0d0d0">,</span> <span style="color: #447fcf; text-decoration: underline">time</span>
+
+<span style="color: #d0d0d0">arduino=serial.Serial(</span><span style="color: #ed9d13">&#39;COM4&#39;</span><span style="color: #d0d0d0">,</span><span style="color: #3677a9">9600</span><span style="color: #d0d0d0">)</span>
+<span style="color: #d0d0d0">time.sleep(</span><span style="color: #3677a9">2</span><span style="color: #d0d0d0">)</span>
+
+<span style="color: #d0d0d0">green=</span><span style="color: #3677a9">5</span><span style="color: #d0d0d0">;</span>
+<span style="color: #d0d0d0">yellow=</span><span style="color: #3677a9">1</span><span style="color: #d0d0d0">;</span>
+<span style="color: #d0d0d0">red=</span><span style="color: #3677a9">5</span><span style="color: #d0d0d0">;</span>
+
+<span style="color: #24909d">print</span><span style="color: #d0d0d0">(</span><span style="color: #ed9d13">&quot;Currently green: &quot;</span><span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">green,</span> <span style="color: #ed9d13">&quot; red: &quot;</span><span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">red,</span> <span style="color: #ed9d13">&quot; yellow: &quot;</span><span style="color: #d0d0d0">,</span> <span style="color: #d0d0d0">yellow);</span>
+
+<span style="color: #6ab825; font-weight: bold">while</span> <span style="color: #6ab825; font-weight: bold">True</span><span style="color: #d0d0d0">:</span>
+    <span style="color: #d0d0d0">arduino.write(b</span><span style="color: #ed9d13">&#39;2&#39;</span><span style="color: #d0d0d0">)</span>
+    <span style="color: #d0d0d0">time.sleep(green)</span>
+
+    <span style="color: #d0d0d0">arduino.write(b</span><span style="color: #ed9d13">&#39;1&#39;</span><span style="color: #d0d0d0">)</span>
+    <span style="color: #d0d0d0">time.sleep(yellow)</span>
+
+    <span style="color: #d0d0d0">arduino.write(b</span><span style="color: #ed9d13">&#39;0&#39;</span><span style="color: #d0d0d0">)</span>
+    <span style="color: #d0d0d0">time.sleep(red)</span>
+</pre>
+          </div>
+          <br>
+
+          <p>Lastly, we wire up the <kbd>Arduino</kbd>. We require the following:</p>
+          <ul>
+            <li><kbd>Arduino</kbd> Unit</li>
+            <li>Breadboard w/ 5V/Ground Jumper cables</li>
+            <li>3x Jumper cables</li>
+            <li>3x LEDs (red, green, yellow) </li>
+            <li>3x 220Ω resistors</li>
+          </ul>
+          <br>
+          <p>The schematics for the project can be found below.</p>
+          <img style="height:99%;width:99%;" src="img/traffic_schematic.png">
+          <p style="font-size:.7em">Courtesy of circuit.io</p>
+        </div>
+        <br style="clear: left;" />
+      </div>
+    </section>
+    <br>
+    <br>
+  </div>
+  <div class="footer">
+    Bill Than © 2021
+    <br>
+    You are viewing the Bachelor of Information version of my website (<a href="https://www.billthan.ca/">public
+      version</a>).
+  </div>
+  <!-- /wrapper -->
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js'></script>
+  <script src='https://dl.dropboxusercontent.com/u/2099832/00_davanzo_site/00_modern/js/readable-range.js'></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
