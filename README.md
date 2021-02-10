@@ -1,13 +1,16 @@
 # Hi there 👋, Welcome to my GitHub repository!
 
-I am a Bachelor of Information Candidate at the University of Toronto. My current projects include
+I am a Bachelor of Information Candidate at the University of Toronto. 
+
+Visit my personal website [here](https://www.billthan.ca)
+
+### Development Proects
 
 * [Personal website source](https://www.github.com/billthan/billthan)  
 * [BigWeather source](https://www.github.com/billthan/BigWeather)  
 
-Visit my personal website [here](https://www.billthan.ca)
 
-### I currently run the following systems:
+### Currently running, and Hackintosh Development
 
 * Dell XPS 9500 (2020) with MacOS Big Sur / Windows 10 dualboot. [EFI source](https://github.com/billthan/XPS9500-MacOS-BigSur-OC)  
 
