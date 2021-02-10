@@ -10,7 +10,7 @@ Visit my personal website [here](https://www.billthan.ca)
 * [BigWeather source](https://www.github.com/billthan/BigWeather)  
 
 
-### Currently running, and Hackintosh Development
+### My setup and Hackintosh EFI's
 
 * Dell XPS 9500 (2020) with MacOS Big Sur / Windows 10 dualboot. [EFI source](https://github.com/billthan/XPS9500-MacOS-BigSur-OC)  
 
