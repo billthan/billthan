@@ -9,9 +9,9 @@ Visit my personal website [here](https://www.billthan.ca)
 
 ### I currently run the following systems:
 
-* Dell XPS 9500 (2020) with MacOS Big Sur / Windows 10 dualboot.
+* Dell XPS 9500 (2020) with MacOS Big Sur / Windows 10 dualboot. [EFI](https://github.com/billthan/XPS9500-MacOS-BigSur-OC)  
 
-* HP 800 G1 with MacOS Catalina OpenCore
+* HP 800 G1 with MacOS Catalina OpenCore. [EFI](https://github.com/billthan/HPG1-800-MacOS-Catalina-OC)
 
 * Custom Build (Ryzen 3600 + GTX 1070) with Windows 10
 
