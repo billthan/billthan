@@ -4,7 +4,7 @@ I am a Bachelor of Information Candidate at the University of Toronto.
 
 Visit my personal website [here](https://www.billthan.ca)
 
-### Development Proects
+### Long Term Development Projects
 
 * [Personal website source](https://www.github.com/billthan/billthan)  
 * [BigWeather source](https://www.github.com/billthan/BigWeather)  
