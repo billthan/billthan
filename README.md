@@ -1,4 +1,4 @@
-### Hi there 👋, Welcome to my GitHub repository!
+# Hi there 👋, Welcome to my GitHub repository!
 
 I am a Bachelor of Information Candidate at the University of Toronto. My current projects include
 
@@ -7,7 +7,7 @@ I am a Bachelor of Information Candidate at the University of Toronto. My curren
 
 Visit my personal website [here](https://www.billthan.ca)
 
-# I currently run the following systems:
+### I currently run the following systems:
 
 * Dell XPS 9500 (2020) with MacOS Big Sur / Windows 10 dualboot.
 
