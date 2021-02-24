@@ -10,14 +10,12 @@ i {
 }
 
 .column {
-  text-align:left;
   float: left;
   width: 33.33%;
 }
 
 /* Clear floats after the columns */
 .row:after {
-  text-align:left;
   content: "";
   display: table;
   clear: both;
