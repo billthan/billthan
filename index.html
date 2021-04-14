@@ -1,266 +1,361 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Bill Than</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link rel='stylesheet' href='https://codepen.io/marcelodavanzo/pen/bVoMVe.css'>
-  <link rel="stylesheet" href="./style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <title>Bill Than</title>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html">Bill Than</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <!-- partial:index.partial.html -->
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-  <nav class="Navbar">
-    <div class="l-Wrapper l-Wrapper--reset@sm-down">
-      <ul class="u-pullRight u-hidden@xs-down">
-        <li>
-          <a class="Navbar-btn Navbar-btn--main" href="Than_Bill_resume.pdf">
-            Resume
-          </a>
-        </li>
-        <li>
-          <a class="Navbar-btn Navbar-btn--main" href="https://github.com/billthan/">
-            GitHub
-          </a>
-        </li>
-        <li>
-          <a class="Navbar-btn Navbar-btn--main" href="https://www.linkedin.com/in/billthan/">
-            LinkedIn
-          </a>
-        </li>
-        <li>
-          <a class="Projects" href="projects.html">
-            Projects
-          </a>
-        </li>
-      </ul>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me<span class="sr-only"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/billthan">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/billthan/">LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="top-section">
+        <div class="container">
+            <h1>Bill Than <br>
+                <small>
+                    Bachelor of Information Candidate at University of Toronto
+                </small>
+            </h1>
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <br>
+                    <img id="profimg" src="/image/prof.png">
+
+                    <p id="side"> Toronto, 🇨🇦 <br>
+                        <a href="mailto:billthan@live.ca">billthan[at]live.ca</a><br>
+                        <a href="http://billthan.ca/">www.billthan.ca</a> <br>
+                    </p>
+                    <p id="side">
+                        <i>References available upon request</i> <br>
+
+                    </p>
+
+
+                </div>
+                <div class="col-sm-1">
+                    <!----SPACE------->
+                </div>
+                <div class="col-sm-9">
+                    <br>
+                    <br>
+                    <!----ABOUT ME----------->
+
+                    <h3> About Me </h3>
+                    <p id="main">I am an undergraduate student pursuing a Bachelor of Information at the University of
+                        Toronto. I
+                        have over 4+ years of <kbd>coding</kbd> experience. As an experienced lifeguard and supervisor
+                        staff, I am
+                        a confident leader who thrives in team scenarios. I thrive in large scale projects that require
+                        UX and User-Centric design. I am currently interested in research pertaining to
+                        Human-Centered Data Science (HCDS) and Human Computer Interaction (HCI).
+                        In my spare time, I like to swim, bike, and listen to Metallica.
+                    </p>
+                    <br>
+
+                    <!----Skills.----------->
+                    <h3>Programming Skills</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <h6>OOP Programming</h5>
+                                    <ul>
+                                        <li>
+                                            Advanced <kbd>Java</kbd>
+                                        </li>
+                                        <li>
+                                            Advanced <kbd>python</kbd>
+                                        </li>
+                                        <li>
+                                            Intermediate <kbd>Kotlin</kbd>
+                                        </li>
+                                        <li>
+                                            Intermediate <kbd>C++</kbd>
+                                        </li>
+                                    </ul>
+                            </div>
+                            <div class="col-sm">
+                                <h6>Server Development</h5>
+                                    <ul>
+                                        <li>
+                                            Intermediate <kbd>SQL</kbd>
+                                        </li>
+                                        <li>
+                                            Beginner <kbd>VBA</kbd>
+                                        </li>
+                                        <li>
+                                            Beginner <kbd>MS Server</kbd> and <kbd>MS Access</kbd>
+                                        </li>
+                                    </ul>
+                            </div>
+                            <div class="col-sm">
+                                <h6>Front-end Development</h5>
+                                    <ul>
+                                        <li>
+                                            Advanced <kbd>HTML</kbd>
+                                        </li>
+                                        <li>
+                                            Advanced <kbd>CSS/Bootstrap</kbd>
+                                        </li>
+                                        <li>
+                                            Intermediate <kbd>.js</kbd>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <h6>OS Programming</h5>
+                                    <ul>
+                                        <li>
+                                            Intermediate <kbd>C</kbd>
+                                        </li>
+                                    </ul>
+                            </div>
+                            <div class="col-sm">
+                                <h6>Statistical Analysis</h5>
+                                    <ul>
+                                        <li>
+                                            Advanced <kbd>RStudio</kbd>
+                                        </li>
+
+                                    </ul>
+                            </div>
+                            <div class="col-sm">
+                                <h6>Data Interchange</h5>
+                                    <ul>
+                                        <li>
+                                            Advanced <kbd>XML</kbd>
+                                        </li>
+                                        <li>
+                                            Advanced <kbd>JSON</kbd>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <!----Skills2.----------->
+                    <h3>User-Centered Design Skills</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <h6>User Research</h5>
+                                    <ul>
+                                        <li>
+                                            Hypothesis Testing
+                                        </li>
+                                        <li>
+                                            Surveys
+                                        </li>
+                                        <li>
+                                            Inteviews
+                                        </li>
+                                    </ul>
+                            </div>
+                            <div class="col-sm">
+                                <h6>User Journey Mapping</h5>
+                                    <ul>
+                                        <li>
+                                            Persona
+                                        </li>
+                                        <li>
+                                            Empathy Maps
+                                        </li>
+                                        <li>
+                                            Needs Statements & Senarios
+                                        </li>
+                                    </ul>
+                            </div>
+                            <div class="col-sm">
+                                <h6>Prototyping</h5>
+                                    <ul>
+                                        <li>
+                                            Low, Medium, and High Fidelity mockups
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <h6>Iterative Design</h5>
+                                    <ul>
+                                        <li>
+                                            Usability Testing
+                                        </li>
+                                        <li>
+                                            Agile and Sprint Methodology
+                                        </li>
+                                    </ul>
+                            </div>
+                            <div class="col-sm">
+                                <h6>Tools</h5>
+                                    <ul>
+                                        <li>
+                                            Figma
+                                        </li>
+                                        <li>
+                                            Photoshop, Illustrator, Premiere Pro, After Effects,
+                                            and Dreamweaver </li>
+                                    </ul>
+                            </div>
+                            <div class="col-sm">
+                                <h6>Prototyping</h5>
+                                    <ul>
+                                        <li>
+                                            Advanced <kbd>HTML</kbd>
+                                        </li>
+                                        <li>
+                                            Advanced <kbd>CSS/Bootstrap</kbd>
+                                        </li>
+                                        <li>
+                                            Intermediate <kbd>.js</kbd>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <!----EDUCATION----------->
+                    <h3> Education </h3>
+                    <h5>University of Toronto</h5>
+                    <h6>[Sep 2020-present]: <i>Bachelor of Information (User Experience, Human Centered Data
+                            Science)</i></h6>
+                    <p>
+                        Relevant Courses: Information Practice in Organizations, Information Visualization,
+                        Interactive
+                        Systems,
+                        Information in the Global Economy, Computational Reasoning, and Data Analytics.
+                    </p>
+                    <h6>[Sep 2018 - Apr 2020]: <i>Bachelor of Science (Computer Science, Mathematics and Education
+                            Studies)</i></h6>
+                    <p>
+                        Relevant Courses: Computer Science I/II, Software Design, Systems Programming, Calculus I/II,
+                        Multivariable Calculus, Linear Algebra, Statistics/Probability I and Mathematical Proofs.
+                    </p>
+                    <br>
+
+                    <!----Awards----------->
+                    <h3> Awards </h3>
+                    <h5>University of Toronto In-Course Scholarship</h5>
+                    <h6>[Aug 2020]: <i>$1500</i></h6>
+
+                    <br>
+
+
+                    <!----RESEARCH----------->
+                    <h3> Research </h3>
+                    <h5><a href="https://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp">NSERC
+                            USRA</a> Proposal <i>(pending)</i></h5>
+                    <h6>[May 2021 - Sep 2021]: University of Toronto Undergraduate Research Assistant</h6>
+                    <p><b>Supervisor:</b> <a href="https://www.anastasia-kuzminykh.com/">Dr. Kuzminykh A.</a>
+                        <i>"Student Engagement in Teleconferencing Classroom During the COVID-19
+                            Pandemic"</i>
+                    </p>
+
+                    <br>
+
+                    <!----PROFESSION EXP.----------->
+
+                    <h3>Experience</h3>
+
+                    <h5>NORMERICA Inc.</h5>
+                    <h6>[Jan 2020 - Mar 2020]: <i>Software Testing – Mississauga, ON</i></h6>
+                    <ul>
+                        <li>Re-structured 10 years worth of user accounting data for migration</li>
+                        <li>Verified 10 years worth of user accounting data in new system for accuracy</li>
+                        <li>Revealed at least 50+ fatal faults / errors in SQL server to prevent user
+                            frustration</li>
+                        <li>Improved server efficiency for usability</li>
+                    </ul>
+                    <h5>City of Toronto</h5>
+                    <h6>[Jun 2018 - present]: <i>Aquatic Trainer and In-Charge - Toronto, ON</i></h6>
+                    <ul>
+                        <li>Restructured aquatic trainings to adhere to COVID-19 procedures. </li>
+                        <li>Increased aquatic staff efficiency with effective training materials.</li>
+                        <li>Improved workplace efficiency with careful official documentation</li>
+                        <li>Maintained facilites including pool chemistry, backwashing, and incident reporting
+                        </li>
+                    </ul>
+                    <br>
+                    <h3>Music</h3>
+                    <div class="row">
+                        <div class="col-sm">
+                            <h5>90s Rock</h5>
+                            <iframe src="https://open.spotify.com/embed/playlist/14OxDtbJe0X7gbIZoKEC3X" width="250"
+                                height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+
+                        <div class="col-sm">
+                            <h5>70s 80s and 90s</h5>
+                            <iframe src="https://open.spotify.com/embed/playlist/48DWT2nMVzryOry1F3lrvg" width="250"
+                                height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                        <div class="col-sm">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="card">
+
+        <div class="card-body">
+            <h5 class="card-title">Bill Than © 2021</h5>
+            <p class="card-text">Coded using HTML, CSS, Bootstrap Libraries, and ❤️</p>
+
+        </div>
     </div>
-  </nav>
 
 
-  <div class="wrapper">
-    <section class="top flex-it flex-row flex-justify-between">
-
-      <div class="left flex-it flex-col flex-justify-end">
-        <a href="index.html">
-          <h1>Bill Than</h1>
-        </a>
-        <h2>Bachelor of Information Candidate, University of Toronto</h2>
-      </div><!-- /left -->
-
-
-
-    </section><!-- /top -->
-
-    <section class="columns flex-it">
-      <section class="alpha flex-it flex-col flex-justify-between">
-
-        <div class="row">
-          <h3>&nbsp;</h3>
-          <p>Toronto, Canada</p>
-          <p>(647) 639-5312</p>
-          <a href="mailto:billthan@live.ca" target="_blank">billthan[at]live[dot]ca</a><br>
-          <a href="http://www.billthan.ca" target="_blank">www.billthan.ca</a>
-          <br>
-          <br>
-          <a class="logo" href="http://www.billthan.ca" target="_blank"></a>
-
-        </div><!-- /row -->
-
-
-        <div class="row references small">
-          <p>Fully entitled to work in the Canada.</p>
-          <p>References available upon request.</p>
-          <br>
-          <br>
-          <br>
-
-        </div><!-- /row -->
-
-      </section><!-- /alpha -->
-
-      <section class="beta">
-
-        <div class="row">
-          <h3>About me</h3>
-          <p>
-            I am an undergraduate student pursuing a Bachelor of Information at the University of Toronto. I have over
-            4+ years of <kbd>coding</kbd> experience. As an experienced lifeguard and supervisor staff, I am a confident
-            leader who thrives in team scenarios. I thrive in large scale projects that require the use of
-            Human-Centered Design and Interaction principles. I am currently interested in research pertaining to
-            Human-Centered Data Science (HCDS) and Human Computer Interaction (HCI). In my spare time, I like to swim
-            and bike.
-          </p>
-        </div><!-- /row -->
-
-        <div class="row">
-          <h3>Programming Skills</h3>
-          <div class="col">
-            <h4>OOP Programming</h4>
-            <p><kbd>Java</kbd>, <kbd>python</kbd>, and <kbd>Kotlin</kbd></p>
-            <br>
-            <h4>OS Programming</h4>
-            <p><kbd>C</kbd> and <kbd>C++</kbd></p>
-            <br>
-          </div>
-          <div class="col">
-            <h4>Data Serialization</h4>
-            <p><kbd>JSON</kbd> and <kbd>XML</kbd></p>
-            <br>
-            <h4>Statistical Analysis</h4>
-            <p><kbd>R Studio</kbd></p>
-            <br>
-          </div>
-          <div class="col">
-            <h4>Server Development</h4>
-            <p><kbd>SQL</kbd>, and <kbd>MS Server 2012</kbd></p>
-            <br>
-
-            <h4>Web Development</h4>
-            <p><kbd>HTML5</kbd>, <kbd>CSS</kbd>, and <kbd>JavaScript</kbd></p>
-          </div>
-          <p style="color:white;"> .</p>
-          <h4>Notable work</h4>
-          <a href="https://github.com/billthan/BigWeather">BigWeather (Statistical Weather App)</a>,
-          <a href="https://github.com/billthan/HPG1-800-MacOS-Catalina-OC">HP Hackintosh</a>, and
-          <a href="https://github.com/billthan/XPS9500-MacOS-BigSur-OC">Dell XPS Hackintosh</a>
-        </div>
-
-
-        <div class="row">
-          <h3>Human-Centered Design Skills</h3>
-          <div class="col">
-            <h4>User Research</h4>
-            <p style="text-align:left;">Hypothesis testing, surveys, and interviews</p>
-            <br>
-            <h4>Journey Mapping</h4>
-            <p style="text-align:left;">Persona, empathy maps, and as-is/to-be senarios</p>
-            <br>
-            <h4>Notable work</h4>
-            <a href="redirect.html">InfoCheck</a> and
-            <a href="redirect.html">Rewards</a>
-          </div>
-          <div class="col">
-            <h4>Prototyping</h4>
-            <p style="text-align:left;">Low, Medium, and <br>High Fidelity mockups</p>
-            <br>
-            <h4>Iterative Design</h4>
-            <p style="text-align:left;">Usability testing and Agile Design</p>
-            <br>
-          </div>
-          <div class="col">
-            <h4>Tools</h4>
-            <p style="text-align:left;">Figma, Adobe Creative Cloud <kbd>LaTeX</kbd>, <kbd>markdown</kbd>, and Balsamiq
-            </p>
-
-          </div>
-
-        </div>
-
-
-        <div class="row">
-          <h3>Education</h3>
-
-          <div class="course">
-            <h4>University of Toronto</h4>
-            <h5>Bachelor of Information (User Experience, Human Centered Data Science)</h5>
-            <h6>
-              <time>September 2020</time>
-              –
-              <time>June 2022</time>
-              <span>(2 years, in progress)</span>
-            </h6>
-            <p>
-              Relevant Courses: Information practice in Organizations, Information Visualization, Interative Systems,
-              Information in the Global Economy, Computational Reasoning, and Data Analytics.
-            </p>
-            <h5>Bachelor of Science (Computer Science, Mathematics and Education Studies)</h5>
-            <h6>
-              <time>September 2018</time>
-              –
-              <time>June 2020</time>
-              <span>(2 years)</span>
-            </h6>
-            <p>
-              Relevant Courses: Computer Science I/II, Software Design, Calculus I/II, Multivariable Calculus, Linear
-              Algebra, Statistics/Probability I and Mathematical Proofs.
-            </p>
-          </div><!-- /course -->
-        </div><!-- /row -->
-
-        <div class="row">
-          <h3>Experience</h3>
-
-          <div class="job">
-            <h4>Software Testing</h4>
-            <h5>NORMERICA Inc. – Mississauga, ON</h5>
-            <h6>
-              <time>January 2020</time>
-              –
-              <time>March 2020</time>
-              <span>(3 month contract)</span>
-            </h6>
-            <ul>
-              <li>Re-structured 10 years worth of user accounting data for migration</li>
-              <li>Verified 10 years worth of user accounting data in new system for accuracy</li>
-              <li>Revealed at least 50+ fatal faults / errors in SQL server to prevent user frustration</li>
-              <li>Improved server efficiency for usability</li>
-            </ul>
-          </div><!-- /job -->
-
-
-          <div class="job">
-            <h4>Aquatic Trainer and In-Charge</h4>
-            <h5>Toronto Parks, Forestry, and Recreation. – Toronto, ON</h5>
-            <h6>
-              <time>June 2018</time>
-              –
-              <time>present</time>
-              <span>(2 years)</span>
-            </h6>
-            <ul>
-              <li>Restructured aquatic trainings to adhere to COVID-19 procedures. </li>
-              <li>Increased aquatic staff efficiency with effective training materials.</li>
-              <li>Confidently lead and directed swim instructors in aquatic programs.</li>
-              <li>Improved workplace efficiency with careful official documentation</li>
-              <li>Maintained facilites including pool chemistry, backwashing, and incident reporting</li>
-
-            </ul>
-          </div><!-- /job -->
-        </div><!-- /row -->
-
-        <div class="row">
-          <h3>Languages</h3>
-          <p>
-            <strong>English</strong> (native) and
-            <strong>Vietnamese</strong> (native).
-          </p>
-          <br>
-          <br>
-          <br>
-
-
-        </div><!-- /row -->
-
-      </section><!-- /beta -->
-    </section><!-- /columns -->
-  </div><!-- /wrapper -->
-  <div class="footer">
-    Bill Than © 2021
-  </div>
-  <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js'></script>
-  <script src='https://dl.dropboxusercontent.com/u/2099832/00_davanzo_site/00_modern/js/readable-range.js'></script>
-  <script src="./script.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 
 </html>
