@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
+
+
 #nav-section {
     background-color: #343a40;
 }
 
 #top-section {
-    height: 260vh;
+    height: 10vh;
     background-color: white;
-    padding: 100px 0 500px 0;
+    padding: 100px 0 150px 0;
 }
 
 #side {
@@ -21,11 +23,15 @@
 #top-section h1 {
     margin: 0 0 0 0;
 }
+
 #logo {
     margin: 0 0 0 15px;
 }
+#ss {
+    margin: 0 0 0 -150px;
+}
 #story h1 {
-    margin: 22px 0 0 5px;
+    margin: 15px 0 0 -60px;
     font-family: Roboto;
     font-weight: 900;
     font-size: 2.6em;
@@ -34,12 +40,23 @@
 
 
 #story h2 {
-    margin: 10px 0 0 20px;
+    margin: 40px 0 0 -140px;
+
     font-family: Roboto;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 2em;
 }
 
+#story h4 {
+    margin: 10px 0 0 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1em;
+    color: #004E67;
+    letter-spacing: 2px;
+    line-height: 2;
+
+}
 
 #main {
     margin: 10px 0 px 0;
