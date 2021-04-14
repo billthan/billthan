@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
 
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.6fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.9fr 1.7fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Icon Text ss ss"
+      "btext btext ss ss"
+      ". . . .";
+  }
+  
+  .Icon { grid-area: Icon; }
+  
+  .Text { grid-area: Text; }
+  
+  .ss { grid-area: ss; }
+  
+  .btext { grid-area: btext; }
+  
+
 #nav-section {
     background-color: #343a40;
 }
@@ -16,22 +36,18 @@
     text-align: left;
 }
 
-#top-section h1 {
-    margin: 0 0 0 0;
-}
-
-#top-section h1 {
-    margin: 0 0 0 0;
-}
 
 #logo {
     margin: 0 0 0 15px;
+    right: 0px;
+
 }
 #ss {
-    margin: 0 0 0 -150px;
+    position: absolute;
+
 }
 #story h1 {
-    margin: 15px 0 0 -60px;
+    margin: 20px 0 0 -30px;
     font-family: Roboto;
     font-weight: 900;
     font-size: 2.6em;
@@ -40,15 +56,14 @@
 
 
 #story h2 {
-    margin: 40px 0 0 -140px;
-
+    margin: -50px 0 0 10px;
     font-family: Roboto;
     font-weight: 100;
     font-size: 2em;
 }
 
 #story h4 {
-    margin: 10px 0 0 20px;
+    margin: -10px 0 0 10px;
     font-family: Roboto;
     font-weight: 500;
     font-size: 1em;
