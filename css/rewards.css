@@ -44,6 +44,11 @@
     background-color: #fbfbfb;
     padding: 20px 0 100px 0;
 }
+#story7 {
+    height: 300px;
+    background-color: #27B6EB;
+    padding: 20px 0 100px 0;
+}
 
 #story2 img {
     max-width: 80%;
@@ -66,6 +71,12 @@
     margin: -20px 0 0 0;
 }
 
+#story7 img {
+    max-width: 90%;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
 #story h1 {
     font-family: Roboto;
     font-weight: 900;
@@ -75,6 +86,15 @@
 #story2 h1 {
     margin-top: 50px;
     margin-left: 40px;
+    font-size: 1.6em;
+    font-family: Roboto;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+#story7 h1 {
+    margin-top: 50px;
+    margin-left: 50px;
     font-size: 1.6em;
     font-family: Roboto;
     font-weight: 900;
@@ -109,8 +129,8 @@
 }
 #story6title {
     position: absolute;
-    top:2000px;
-    left:-150px;
+    top:2050px;
+    left:-140px;
     font-size: 1.6em;
     font-family: Roboto;
     font-weight: 900;
@@ -120,7 +140,7 @@
 #story6title2 {
     position: absolute;
     top:2280px;
-    left:-150px;
+    left:-170px;
     font-size: 1.6em;
     font-family: Roboto;
     font-weight: 900;
