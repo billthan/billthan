@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
-
 #nav-section {
     background-color: #343a40;
 }
@@ -9,139 +8,166 @@
     background-color: white;
     padding: 100px 0 100px 0;
 }
+
 #story {
     height: 500px;
-    background-color:white;
+    background-color: white;
     padding: 20px 0 100px 0;
 }
 
 #story2 {
     height: 300px;
-    background-color:#27B6EB;
+    background-color: #27B6EB;
     padding: 20px 0 100px 0;
 }
 
 #story3 {
     height: 300px;
-    background-color:#C8E1EA;
+    background-color: #C8E1EA;
     padding: 20px 0 100px 0;
 }
 
 #story4 {
     height: 300px;
-    background-color:#568d40;
-    padding: 20px 0 100px 0;
-}
-#story5 {
-    height: 300px;
-    background-color:#d5f4c9;
-    padding: 20px 0 100px 0;
-}
-#story6{
-    height: 600px;
-    background-color:#fbfbfb;
+    background-color: #568d40;
     padding: 20px 0 100px 0;
 }
 
-#story2 img{
+#story5 {
+    height: 300px;
+    background-color: #d5f4c9;
+    padding: 20px 0 100px 0;
+}
+
+#story6 {
+    height: 600px;
+    background-color: #fbfbfb;
+    padding: 20px 0 100px 0;
+}
+
+#story2 img {
     max-width: 80%;
     margin-top: -120px;
 }
-#story3 img{
+
+#story3 img {
     max-width: 75%;
     margin-top: -120px;
 }
 
-#story4 img{
+#story4 img {
     max-width: 100%;
-    margin-left:-30px;
+    margin-left: -30px;
     margin-top: 100px;
 }
-#story6 img{
-    width:100%;
+
+#story6 img {
+    width: 100%;
     margin: -20px 0 0 0;
 }
 
-
-#story h1{
+#story h1 {
     font-family: Roboto;
-    font-weight:900;
-    color:#063D61;
+    font-weight: 900;
+    color: #063D61;
 }
 
-#story2 h1{
+#story2 h1 {
     margin-top: 50px;
-    margin-left:40px;
+    margin-left: 40px;
     font-size: 1.6em;
     font-family: Roboto;
-    font-weight:900;
-    color:#FFFFFF;
+    font-weight: 900;
+    color: #FFFFFF;
 }
 
-#story3 h1{
+#story3 h1 {
     margin-top: 50px;
-    margin-left:40px;
+    margin-left: 40px;
     font-size: 1.6em;
     font-family: Roboto;
-    font-weight:900;
-    color:#004e67;
-}
-#story4 h1{
-    margin-top: 50px;
-    margin-left:40px;
-    font-size: 1.6em;
-    font-family: Roboto;
-    font-weight:900;
-    color:#FFFFFF;
-}
-#story5 h1{
-    margin-top: 50px;
-    margin-left:40px;
-    font-size: 1.6em;
-    font-family: Roboto;
-    font-weight:900;
-    color:#355329;
-}
-#story h2{
-    margin-left:30px;
-    font-family: Roboto;
-    font-weight:100;
-    color:#818181;
+    font-weight: 900;
+    color: #004e67;
 }
 
-#story2 h2{
-    margin-left:55px;
-    margin-top:-50px;
+#story4 h1 {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 1.6em;
     font-family: Roboto;
-    font-weight:500;
-    font-size: 1.2em;
-    color:#004E67;
-}
-#story3 h2{
-    margin-left:55px;
-    margin-top:-40px;
-    font-family: Roboto;
-    font-weight:500;
-    font-size: 1.2em;
-    color:#004E67;
-}
-#story4 h2{
-    margin-left:55px;
-    margin-top:-350px;
-    font-family: Roboto;
-    font-weight:500;
-    font-size: 1.2em;
-    color:#313131;
-}
-#story5 h2{
-    margin-left:55px;
-    margin-top:20px;
-    font-family: Roboto;
-    font-weight:500;
-    font-size: 1.2em;
-    color:#355329;
+    font-weight: 900;
+    color: #FFFFFF;
 }
 
+#story5 h1 {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 1.6em;
+    font-family: Roboto;
+    font-weight: 900;
+    color: #355329;
+}
+#story6title {
+    position: absolute;
+    top:2000px;
+    left:-150px;
+    font-size: 1.6em;
+    font-family: Roboto;
+    font-weight: 900;
+    color: #575757;
+}
+
+#story6title2 {
+    position: absolute;
+    top:325px;
+    left:-275px;
+    font-size: 1.6em;
+    font-family: Roboto;
+    font-weight: 900;
+    color: #575757;
+}
+#story h2 {
+    margin-left: 30px;
+    font-family: Roboto;
+    font-weight: 100;
+    color: #818181;
+}
+
+#story2 h2 {
+    margin-left: 55px;
+    margin-top: -50px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #004E67;
+}
+
+#story3 h2 {
+    margin-left: 55px;
+    margin-top: -40px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #004E67;
+}
+
+#story4 h2 {
+    margin-left: 55px;
+    margin-top: -350px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #313131;
+}
+
+#story5 h2 {
+    margin-left: 55px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #355329;
+}
 
 #side {
     margin: 10px 0 px 0;
@@ -173,7 +199,6 @@
     font-weight: 400;
     font-size: 1em;
     color: #FFFFFF;
-
 }
 
 #story3 h5 {
@@ -183,6 +208,7 @@
     font-size: .9em;
     color: #4b4b4b;
 }
+
 #story4 h5 {
     margin: -310px 0 0 55px;
     font-family: Roboto;
@@ -190,6 +216,7 @@
     font-size: .9em;
     color: #FFFFFF;
 }
+
 #story5 h5 {
     margin: 10px 0 0 55px;
     font-family: Roboto;
@@ -197,5 +224,3 @@
     font-size: .9em;
     color: #313131;
 }
-
-
