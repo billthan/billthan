@@ -1,65 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
 
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 0.5fr 1.6fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.9fr 1.7fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "Icon Text ss ss"
-      "btext btext ss ss"
-      ". . . .";
-  }
-  
-  .Icon { grid-area: Icon; }
-  
-  .Text { grid-area: Text; }
-  
-  .ss { grid-area: ss; }
-  
-  .btext { grid-area: btext; }
-  
-
 #nav-section {
     background-color: #343a40;
 }
 
 #top-section {
-    height: 10vh;
+    height: 200px;
     background-color: white;
-    padding: 100px 0 150px 0;
+    padding: 100px 0 100px 0;
+}
+#story {
+    height: 500px;
+    background-color:white;
+    padding: 20px 0 100px 0;
+}
+#story2 img{
+    max-width: 80%;
+    margin-top: -120px;
+}
+#story2 {
+    height: 400px;
+    background-color:#27B6EB;
+    padding: 20px 0 100px 0;
+}
+#story h1{
+    font-family: Roboto;
+    font-weight:900;
+    color:#063D61;
+}
+
+#story2 h1{
+    margin-top: 50px;
+    margin-left:40px;
+    font-size: 1.6em;
+    font-family: Roboto;
+    font-weight:500;
+    color:#FFFFFF;
+}
+
+
+#story h2{
+    margin-left:30px;
+    font-family: Roboto;
+    font-weight:100;
+    color:#818181;
 }
 
 #side {
     margin: 10px 0 px 0;
     text-align: left;
-}
-
-
-#logo {
-    margin: 0 0 0 15px;
-    right: 0px;
-
-}
-#ss {
-    position: absolute;
-
-}
-#story h1 {
-    margin: 20px 0 0 -30px;
-    font-family: Roboto;
-    font-weight: 900;
-    font-size: 2.6em;
-    color: #063D61;
-}
-
-
-#story h2 {
-    margin: -50px 0 0 10px;
-    font-family: Roboto;
-    font-weight: 100;
-    font-size: 2em;
 }
 
 #story h4 {
@@ -70,22 +59,13 @@
     color: #004E67;
     letter-spacing: 2px;
     line-height: 2;
-
 }
 
-#main {
-    margin: 10px 0 px 0;
-    text-align: justify;
-}
-
-#underprof {
-    text-align: center;
-}
-
-i {
-    font-style: italic;
-}
-
-b {
-    font-style: bold;
+#story h5 {
+    margin: -10px 0 0 10px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1em;
+    color: #27B6EB;
+    line-height: 2;
 }
