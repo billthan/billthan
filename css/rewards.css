@@ -3,6 +3,10 @@
     background-color: #343a40;
 }
 
+#foot {
+    text-align:center;
+}
+
 #top-section {
     height: 200px;
     background-color: white;
